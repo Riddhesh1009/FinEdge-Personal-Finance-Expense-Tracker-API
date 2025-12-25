@@ -1,0 +1,26 @@
+{
+  "name": "finedge-personal-finance-expense-tracker-api",
+  "version": "1.0.0",
+  "description": "Build a RESTful API backend for a personal finance tracker using Node.js and Express, demonstrating asynchronous programming, modular architecture, and clean REST design. Users can create accounts, add income or expenses, view summaries, and generate monthly insights.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.11",
+    "supertest": "^7.1.4"
+  }
+}
